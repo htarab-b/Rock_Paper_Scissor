@@ -34,17 +34,17 @@ while True:
         if (cpu==2):
             print ("CPU chose Papers")
             if (op==1):
-                print ("You Win")
+                print ("You Lose")
             elif (op==2):
                 print ("Match Draw")
             elif (op==3):
-                print ("You Lose")
+                print ("You Win")
         if (cpu==3):
             print ("CPU chose Scissors")
             if (op==1):
-                print ("You Lose")
-            elif (op==2):
                 print ("You Win")
+            elif (op==2):
+                print ("You Lose")
             elif (op==3):
                 print ("Match Draw")
     time.sleep(2)
